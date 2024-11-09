@@ -7,6 +7,7 @@ name = "pypi"
 sort_pipfile = true
 
 [packages]
+cloudpickle = "*"
 ipykernel = "*"
 matplotlib = "*"
 nltk = "*"

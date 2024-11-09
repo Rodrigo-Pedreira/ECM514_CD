@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "6df2df7ec8f2b213a00f0fb45dc8a46b6f7ac7c8ba8ef7f308cccf0778143c5b"
+            "sha256": "596276547d14a34bf2745df0d4c3b240f4a14128ae0c255658fcf81c6235a799"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -181,6 +181,15 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==8.1.7"
+        },
+        "cloudpickle": {
+            "hashes": [
+                "sha256:81a929b6e3c7335c863c771d673d105f02efdb89dfaba0c90495d1c64796601b",
+                "sha256:fe11acda67f61aaaec473e3afe030feb131d78a43461b718185363384f1ba12e"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.8'",
+            "version": "==3.1.0"
         },
         "colorama": {
             "hashes": [
