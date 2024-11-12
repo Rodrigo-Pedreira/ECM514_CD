@@ -17,7 +17,6 @@ requests = "*"
 rich = "*"
 scikit-learn = "*"
 seaborn = "*"
-streamlit = "*"
 wordcloud = "*"
 
 [dev-packages]
