@@ -12,10 +12,9 @@ O projeto utilizou a versão `Python 3.11`, embora não seja especificamente nec
     `git clone <url>`
 - Abra um terminal e entre na pasta com o repositorio
     `cd <path>/<para>/<pasta>/ECM514_CD/`
-- Recomendamos usar o `Pipenv` para baixar as dependencias
-    `pipenv install`
+- Recomendamos usar o `Pipenv` para baixar as dependencias. Use o comando `pipenv install`, lembre de estar dentro da pasta `ECM514_CD`
     - Alternativamente use o `pip`
-        `pip install -r`
+        `pip install -r requirements.txt`
 
 ## Como usar
 
