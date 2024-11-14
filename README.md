@@ -38,3 +38,8 @@ Wordcloud:
 
 Relatorio das metricas:
 ![Relatorio gerado com as metricas dos modelos](image/metrics-report.png)
+
+## Video de demostração
+
+[![Video de apresentação](https://img.youtube.com/vi/Z3qkMwdMY7U/0.jpg)](https://www.youtube.com/watch?v=Z3qkMwdMY7U)
+
