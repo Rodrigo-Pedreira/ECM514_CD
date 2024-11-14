@@ -2,6 +2,12 @@
 
 Projeto do segundo semestre da disciplina ECM514 - Ciência de Dados. Classificando reviews de jogos na Steam usando TF-IDF e classificadores do scikit-learn.
 
+## Integrantes
+
+- Arthur Wypych de Almeida 19.00565-2
+- Luiz Fernando Rodrigues  19.01358-2
+- Rodrigo Machado Pedreira 18.01569-7
+
 ## Requerimentos
 
 O projeto utilizou a versão `Python 3.11`, embora não seja especificamente necessario utilizar as mesmas versões para fazer uso desse "pacote", é necessario um ambiente igual para utilizar os modelos "pickled" (salvos).
@@ -28,9 +34,9 @@ Abra um terminal de comando no diretorio raiz do projeto (`ECM514_CD/`) e execut
 
 Por hora, utilize a função `run_all_task(<'nome do jogo'>, <'appid'>)`. É possivel passar outros argumentos para a função que controlam opções como salvar e carregar modelos pre-treinados. O output traz uma visualização dos termos mais frequentes e um relatorio com metricas do desempenho de diversos modelos.
 
-Visualização dos termos mais frequentes:
+## Fotos
 
-Tabela e grafico:
+Visualização dos termos mais frequentes:
 ![Tabela e grafico dos termos mais frequentes](image/most_common_terms.png)
 
 Wordcloud:
@@ -42,4 +48,3 @@ Relatorio das metricas:
 ## Video de demostração
 
 [![Video de apresentação](https://img.youtube.com/vi/Z3qkMwdMY7U/0.jpg)](https://www.youtube.com/watch?v=Z3qkMwdMY7U)
-
