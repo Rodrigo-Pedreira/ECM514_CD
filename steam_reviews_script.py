@@ -11,6 +11,7 @@ import matplotlib.pyplot as plt
 import nltk
 import numpy as np
 import pandas as pd
+from main_driver import pre_ml_task as my_pre_ml_task
 import requests
 import streamlit as st
 import seaborn as sns
@@ -1904,11 +1905,20 @@ def plot_feature_effects(game: Game):
 def run_all_tasks(
     game_name: str,
     appid: str,
+    save_game: bool = False,
+    load_game: bool = True,
+    new_request: bool = False,
     models_names: list[str] | None = None,
     pipeline: list[tuple[str, Pipeline]] | None = None,
     **kwargs,
 ):
-    game = pre_ml_task(game_name, appid, **kwargs)
+    game = my_pre_ml_task(
+        appid=appid,
+        game_name=game_name,
+        load_game=load_game,
+        save_game=save_game,
+        new_request=new_request,
+    )
     clf = {}
     use_test_split: bool = kwargs.get("use_test_split", False)
     if pipeline is not None:
